@@ -10,7 +10,8 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 
 stocks_url = 'http://marketdata.krx.co.kr/contents/MKD/04/0404/04040200/MKD04040200.jsp'
-app_directory_path = '/Users/frank.io/Documents/workplace/allstocks/project_allstocks/app_stocks/'
+# app_directory_path = '/Users/frank.io/Documents/workplace/allstocks/project_allstocks/app_stocks/'
+app_directory_path = '/home/allstocks/allstocks/project_allstocks/app_stocks/'
 download_path = '{}static/csv/'.format(app_directory_path)
 file_path = '{}static/csv/data.csv'.format(app_directory_path)
 prefs = {"download.default_directory": download_path}
